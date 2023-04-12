@@ -1,0 +1,10 @@
+server:
+  port: 8082
+mqtt:
+  username: admin
+  password: public
+  host-url:
+    - tcp://localhost:1883
+  client-id: mqttId2
+  default-topic: topic
+  connection-timeout: 3000
